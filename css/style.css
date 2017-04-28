@@ -1,0 +1,233 @@
+@import 'bootstrap.min.css';
+@import 'owl.carousel.min.css';
+@import 'owl.theme.default.min.css';
+@import 'font-awesome.min.css';
+@import 'jquery.bxslider.css';
+@import 'jquery-ui.css';
+
+body {
+    background: #e1e1e1;
+}
+
+#wrapper {
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.25);
+}
+
+#wrapper.well {
+    background: #fff;
+    border-radius: 0;
+}
+
+a {
+    text-decoration: none !important;
+    color: inherit;
+}
+
+a:hover, a:focus, a:active {
+    color: inherit;
+}
+
+.navbar-inverse {
+    background-color: transparent;
+    border-color: transparent;
+    border: none;
+    border-bottom: 4px solid #5cb85c;
+    border-radius: 0px;
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover {
+    background-color: #5cb85c;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+    color: #5cb85c;
+}
+
+.navbar-brand > img {
+    margin: -6px;
+}
+
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:focus, .navbar-inverse .navbar-nav > .open > a:hover {
+    background-color: transparent;
+    color: #5cb85c;
+}
+
+.dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover {
+    color: #FFF;
+    background-color: #5cb85c;
+}
+
+.navbar-inverse .navbar-nav > li > a:focus {
+    background-color: transparent;
+    color: #9d9d9d;
+}
+
+.bx-viewport {
+    position: static !important;
+    border: 0 !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+.bx-wrapper, .bx-viewport {
+    max-height: 400px !important;
+}
+
+.left {
+    float: left;
+}
+
+.search-form {
+    padding: 5px;
+    border: 1px solid #5cb85c;
+    margin-top: 5px;
+}
+
+.form-group {
+    margin: 8px;
+}
+
+.main-heading {
+    color: #5cb85c;
+}
+
+.well {
+    margin-bottom: 0px;
+}
+
+hr {
+    border: 1px solid #5cb85c;
+}
+
+.act-content {
+    border: 1px solid #5cb87a;
+    background: #d7dde4;
+    margin: 0 10px !important;
+}
+
+.owl-controls {
+    display: block !important;
+}
+
+.owl-prev, .owl-next {
+    background: #5cb85c !important;
+    display: inline-block;
+    color: #FFF;
+    margin: 9px;
+    text-align: center;
+    width: 50px;
+    padding: 6px;
+    transition-duration: .4s;
+}
+
+.owl-prev:hover, .owl-next:hover {
+    background: rgba(92, 184, 92, 0.61) !important;
+}
+
+.tag {
+    margin-bottom: 5px;
+}
+
+.price {
+    background: #c4c5c5;
+    padding: 5px;
+}
+
+.holder {
+    margin-bottom: 12px;
+}
+
+.footer {
+    padding: 10px;
+    color: #5cb85c;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.well {
+    padding-bottom: 0;
+}
+
+.ins {
+    margin: 50px 0 50px;
+}
+
+.frm-elem {
+    margin-top: 2%;
+}
+
+.alert {
+    display: none;
+}
+
+.profil {
+    border: 1px solid #DDD;
+    padding: 10px;
+}
+
+ul > li {
+    list-style: none;
+}
+
+.profile-pic {
+    width: 100px;
+    height: 100px;
+}
+
+.control-label {
+    text-align: left !important;
+}
+
+.suivi {
+    display: none;
+}
+
+.owl-buttons {
+    text-align: center;
+}
+
+.annonce {
+    margin-top: 5px;
+    border: 1px solid;
+    padding: 5px;
+}
+
+.ann {
+    margin-top: 35px;
+}
+
+.annonce-content {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.annonce-content span {
+    color: #3c763d;
+}
+
+.im-container img {
+    width: 100%;
+    height: 155px;
+    max-height: 155px;
+}
+
+.annonce-img {
+    width: 200px;
+    height: 200px;
+}
+.map{
+    width:100%;
+    height:400px;
+}
+.btn-group{width:100%;}
+.wayclear {
+    position: absolute;
+    right: 5px;
+    top: 0;
+    bottom: -11px;
+    height: 0;
+    margin: auto;
+    font-size: 14px;
+    cursor: pointer;
+    color: #ccc;
+}

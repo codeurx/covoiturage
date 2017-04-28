@@ -1,0 +1,30 @@
+RewriteEngine On
+
+Options -Indexes
+
+RewriteRule ^Accueil$               index.php [L]
+
+RewriteRule ^Inscription$           inscription.php [L]
+
+RewriteRule ^ValidateInscription$   inc/validate_ins.php [L]
+
+RewriteRule ^Connexion$             connect.php [L]
+
+RewriteRule ^ValidateCnx$           inc/validate_cnx.php [L]
+
+RewriteRule ^Profil$                mon_profil.php [L]
+
+RewriteRule ^UpdateProfile$         inc/update_profile.php [L]
+
+RewriteRule ^MesAnnonces$           mes_annonces.php [L]
+
+RewriteRule ^AjoutTrajet$           ajout_trajet.php [L]
+
+RewriteRule ^SubmitTrajet$          inc/save_trajet.php [L]
+
+RewriteRule ^Detail-Annonce-(.*)$   detail_annonce.php?id=$1 [L]
+
+RewriteRule ^Delete-Annonce-(.*)$   inc/supprimer_annonce.php?id=$1 [L]
+
+RewriteRule ^Rechercher-(.*)-(.*)$  rechercher.php?depart=$1&arrive=$2 [L]
+RewriteRule ^Take-Traject$          inc/prendre_trajet.php [L]
