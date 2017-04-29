@@ -143,8 +143,12 @@ class Database
         foreach ($vehicle as $v){
             $vehicleid = $v['vehicleid'];
         }
-
-        $query = $this->pdo->prepare("INSERT INTO trajets (`vehicleid`,`userid`,`depart`,`arriver`,`places`,`date`,`time`,`aller_retour`,`trajet`,`price`) values ('$vehicleid','$userid','$depart','$arrive','$places','$date','$time','$ar','$trajet','$price')");
+        if ($date != '0000-00-00'){
+            $d = date("Y-m-d", strtotime($date) );
+        }else{
+            $d = '0000-00-00';
+        }
+        $query = $this->pdo->prepare("INSERT INTO trajets (`vehicleid`,`userid`,`depart`,`arriver`,`places`,`date_t`,`time_t`,`aller_retour`,`trajet`,`price`) values ('$vehicleid','$userid','$depart','$arrive','$places','$d','$time','$ar','$trajet','$price')");
 
         $query->execute();
 
@@ -170,6 +174,10 @@ class Database
         $query = $this->pdo->prepare("DELETE FROM trajets WHERE idtrajet='$id'");
 
         $query->execute();
+
+        $q = $this->pdo->prepare("DELETE FROM steps WHERE id_trajet='$id'");
+
+        $q->execute();
 
         return 'success';
     }
@@ -230,5 +238,21 @@ class Database
         $q->execute();
 
         return 'success';
+    }
+
+    public function SelectTrajet($userid,$depart,$ar,$places,$date,$arrive,$trajet,$time,$price)
+    {
+        $query = $this->pdo->prepare("SELECT * FROM trajets WHERE userid = '$userid' AND depart = '$depart' AND arriver = '$arrive' AND places = '$places' AND date_t = '$date' AND aller_retour = '$ar' AND trajet = '$trajet' AND time_t='$time' AND price = '$price'");
+
+        $query->execute();
+
+        return $query->fetchAll();
+    }
+
+    public function SaveStep($id_traj,$depart,$step)
+    {
+        $query = $this->pdo->prepare("INSERT INTO steps (`id_trajet`,`depart`,`step`) values ('$id_traj','$depart','$step')");
+
+        $query->execute();
     }
 }

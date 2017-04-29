@@ -27,4 +27,5 @@ RewriteRule ^Detail-Annonce-(.*)$   detail_annonce.php?id=$1 [L]
 RewriteRule ^Delete-Annonce-(.*)$   inc/supprimer_annonce.php?id=$1 [L]
 
 RewriteRule ^Rechercher-(.*)-(.*)$  rechercher.php?depart=$1&arrive=$2 [L]
+
 RewriteRule ^Take-Traject$          inc/prendre_trajet.php [L]

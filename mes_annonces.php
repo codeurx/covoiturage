@@ -77,6 +77,11 @@ $listannonces = $db->GetAnnonces();
                 </div>
             <?php }else{
                 foreach ($annonces as $annonce){
+                    if ($annonce['date_t']!='0000-00-00'){
+                        $date = ' <i class="fa fa-calendar"></i> '.date('d-m-Y',strtotime($annonce['date_t']));
+                    }else{
+                        $date = '';
+                    }
                 ?>
                     <div class="col-md-12 annonce record">
                         <div class="col-md-3">
@@ -86,7 +91,7 @@ $listannonces = $db->GetAnnonces();
                         </div>
                         <div class="col-md-6">
                             <a style="color:#3c763d;" href="Detail-Annonce-<?=$annonce['idtrajet'];?>">De <?=$annonce['depart'];?> à <?=$annonce['arriver'];?></a><br><br>
-                            <i class="fa fa-clock-o"></i> <?=$annonce['time'];?> <i class="fa fa-calendar"></i> <?=$annonce['date'];?> <i class="fa fa-money"></i> <?=$annonce['price'];?> DT/Place
+                            <i class="fa fa-clock-o"></i> <?=$annonce['time_t'];?><?=$date;?> <i class="fa fa-money"></i> <?=$annonce['price'];?> DT/Place
                         </div>
                         <div class="col-md-3">
                             <a href="Detail-Annonce-<?=$annonce['idtrajet'];?>" class="btn btn-success ann"><i class="fa fa-eye"></i> Consulter</a>

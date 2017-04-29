@@ -21,11 +21,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ajout_trajet.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ajout_trajet.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ajout_trajet.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
-              <caret line="154" column="18" selection-start-line="154" selection-start-column="18" selection-end-line="154" selection-end-column="18" />
+            <state relative-caret-position="176">
+              <caret line="293" column="51" selection-start-line="293" selection-start-column="51" selection-end-line="293" selection-end-column="51" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="save_trajet.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/inc/save_trajet.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="515">
+              <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="supprimer_annonce.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/inc/supprimer_annonce.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="5" column="25" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rechercher.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rechercher.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="428">
+              <caret line="81" column="16" selection-start-line="81" selection-start-column="16" selection-end-line="81" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -34,18 +64,60 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="92" column="17" selection-start-line="92" selection-start-column="17" selection-end-line="92" selection-end-column="17" />
+            <state relative-caret-position="504">
+              <caret line="146" column="4" selection-start-line="146" selection-start-column="4" selection-end-line="146" selection-end-column="4" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/style.css">
+      <file leaf-file-name="Database.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/inc/Database.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="219" column="13" selection-start-line="219" selection-start-column="13" selection-end-line="219" selection-end-column="13" />
+            <state relative-caret-position="281">
+              <caret line="177" column="61" selection-start-line="177" selection-start-column="61" selection-end-line="177" selection-end-column="61" />
+              <folding>
+                <marker date="1493466369959" expanded="true" signature="715:756" ph="SELECT * FRO... users" />
+                <marker date="1493466369959" expanded="true" signature="1065:1324" ph="INSERT INTO users... " />
+                <marker date="1493466369959" expanded="true" signature="1502:1570" ph="SELECT * FRO... users" />
+                <marker date="1493466369959" expanded="true" signature="1929:1984" ph="UPDATE users... " />
+                <marker date="1493466369959" expanded="true" signature="2192:2236" ph="SELECT * FRO... users" />
+                <marker date="1493466369959" expanded="true" signature="2399:2446" ph="SELECT * FRO... vehicles" />
+                <marker date="1493466369959" expanded="true" signature="3310:3407" ph="UPDATE users... " />
+                <marker date="1493466369959" expanded="true" signature="3492:3571" ph="UPDATE users... " />
+                <marker date="1493466369959" expanded="true" signature="3732:3818" ph="UPDATE vehic... " />
+                <marker date="1493466369959" expanded="true" signature="3907:4007" ph="INSERT INTO vehicles... " />
+                <marker date="1493466369959" expanded="true" signature="4217:4262" ph="SELECT * FRO... vehicles" />
+                <marker date="1493466369959" expanded="true" signature="4594:4814" ph="INSERT INTO trajets... " />
+                <marker date="1493466369959" expanded="true" signature="4966:5116" ph="SELECT t.*,v... trajets" />
+                <marker date="1493466369959" expanded="true" signature="5384:5424" ph="DELETE FROM " />
+                <marker date="1493466369959" expanded="true" signature="5491:5530" ph="DELETE FROM " />
+                <marker date="1493466369959" expanded="true" signature="5674:5716" ph="SELECT * FRO... trajets" />
+                <marker date="1493466369959" expanded="true" signature="5878:6018" ph="SELECT t.*, trajets" />
+                <marker date="1493466369959" expanded="true" signature="6283:6422" ph="SELECT t.*, trajets" />
+                <marker date="1493466369959" expanded="true" signature="6579:6623" ph="SELECT * FRO... trajets" />
+                <marker date="1493466369959" expanded="true" signature="6775:6819" ph="SELECT * FRO... trajets" />
+                <marker date="1493466369959" expanded="true" signature="7035:7095" ph="UPDATE traje... " />
+                <marker date="1493466369959" expanded="true" signature="7298:7367" ph="SELECT * FRO... trajets" />
+                <marker date="1493466369959" expanded="true" signature="7298:7391" ph="SELECT * FRO... trajets" />
+                <marker date="1493466369959" expanded="true" signature="7298:7414" ph="SELECT * FRO... trajets" />
+                <marker date="1493466369959" expanded="true" signature="7298:7435" ph="SELECT * FRO... trajets" />
+                <marker date="1493466369959" expanded="true" signature="7298:7460" ph="SELECT * FRO... trajets" />
+                <marker date="1493466369959" expanded="true" signature="7298:7483" ph="SELECT * FRO... trajets" />
+                <marker date="1493466369959" expanded="true" signature="7298:7484" ph="SELECT * FRO... trajets" />
+                <marker date="1493466369959" expanded="true" signature="7298:7502" ph="SELECT * FRO... trajets" />
+                <marker date="1493466369959" expanded="true" signature="7298:7523" ph="SELECT * FRO... trajets" />
+                <marker date="1493466369959" expanded="true" signature="7695:7780" ph="INSERT INTO steps... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mes_annonces.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mes_annonces.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="116">
+              <caret line="80" column="34" selection-start-line="80" selection-start-column="34" selection-end-line="80" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -84,23 +156,23 @@
         <option value="$PROJECT_DIR$/inc/update_profile.php" />
         <option value="$PROJECT_DIR$/css/owl.theme.default.min.css" />
         <option value="$PROJECT_DIR$/css/owl.carousel.min.css" />
-        <option value="$PROJECT_DIR$/inc/save_trajet.php" />
         <option value="$PROJECT_DIR$/inc/supprimer_annonce.php" />
         <option value="$PROJECT_DIR$/wassalni.sql" />
-        <option value="$PROJECT_DIR$/.htaccess" />
-        <option value="$PROJECT_DIR$/js/app.js" />
         <option value="$PROJECT_DIR$/inc/prendre_trajet.php" />
-        <option value="$PROJECT_DIR$/inc/Database.php" />
         <option value="$PROJECT_DIR$/inc/settings.ini.php" />
         <option value="$PROJECT_DIR$/connect.php" />
         <option value="$PROJECT_DIR$/inscription.php" />
         <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/mes_annonces.php" />
         <option value="$PROJECT_DIR$/mon_profil.php" />
         <option value="$PROJECT_DIR$/rechercher.php" />
         <option value="$PROJECT_DIR$/detail_annonce.php" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/.htaccess" />
+        <option value="$PROJECT_DIR$/js/app.js" />
         <option value="$PROJECT_DIR$/ajout_trajet.php" />
+        <option value="$PROJECT_DIR$/inc/save_trajet.php" />
+        <option value="$PROJECT_DIR$/inc/Database.php" />
+        <option value="$PROJECT_DIR$/mes_annonces.php" />
       </list>
     </option>
   </component>
@@ -173,6 +245,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="covoiturage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="covoiturage" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="inc" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -270,12 +356,12 @@
       <workItem from="1493387393022" duration="6237000" />
       <workItem from="1493395277458" duration="1770000" />
       <workItem from="1493452135943" duration="216000" />
-      <workItem from="1493453030074" duration="2468000" />
+      <workItem from="1493453030074" duration="13078000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109384000" />
+    <option name="totallyTimeSpent" value="119994000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -286,18 +372,18 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32931727" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32931727" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -510,24 +596,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wassalni.sql" />
-    <entry file="file://$PROJECT_DIR$/inc/Database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/inc/settings.ini.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="457">
-          <caret line="29" column="40" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="58" />
         </state>
       </provider>
     </entry>
@@ -555,13 +627,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mes_annonces.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="34" column="30" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/detail_annonce.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -577,31 +642,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rechercher.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/inc/prendre_trajet.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inc/save_trajet.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inc/supprimer_annonce.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="38" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -627,26 +671,106 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/covoiturage/.idea/workspace.xml" />
-    <entry file="file://$PROJECT_DIR$/js/app.js">
+    <entry file="file://$PROJECT_DIR$/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="92" column="17" selection-start-line="92" selection-start-column="17" selection-end-line="92" selection-end-column="17" />
+        <state relative-caret-position="310">
+          <caret line="22" column="26" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="219" column="13" selection-start-line="219" selection-start-column="13" selection-end-line="219" selection-end-column="13" />
+        <state relative-caret-position="452">
+          <caret line="233" column="17" selection-start-line="233" selection-start-column="17" selection-end-line="233" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="146" column="4" selection-start-line="146" selection-start-column="4" selection-end-line="146" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ajout_trajet.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="154" column="18" selection-start-line="154" selection-start-column="18" selection-end-line="154" selection-end-column="18" />
+        <state relative-caret-position="176">
+          <caret line="293" column="51" selection-start-line="293" selection-start-column="51" selection-end-line="293" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/save_trajet.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="515">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/supprimer_annonce.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rechercher.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="81" column="16" selection-start-line="81" selection-start-column="16" selection-end-line="81" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/Database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="177" column="61" selection-start-line="177" selection-start-column="61" selection-end-line="177" selection-end-column="61" />
+          <folding>
+            <marker date="1493466369959" expanded="true" signature="715:756" ph="SELECT * FRO... users" />
+            <marker date="1493466369959" expanded="true" signature="1065:1324" ph="INSERT INTO users... " />
+            <marker date="1493466369959" expanded="true" signature="1502:1570" ph="SELECT * FRO... users" />
+            <marker date="1493466369959" expanded="true" signature="1929:1984" ph="UPDATE users... " />
+            <marker date="1493466369959" expanded="true" signature="2192:2236" ph="SELECT * FRO... users" />
+            <marker date="1493466369959" expanded="true" signature="2399:2446" ph="SELECT * FRO... vehicles" />
+            <marker date="1493466369959" expanded="true" signature="3310:3407" ph="UPDATE users... " />
+            <marker date="1493466369959" expanded="true" signature="3492:3571" ph="UPDATE users... " />
+            <marker date="1493466369959" expanded="true" signature="3732:3818" ph="UPDATE vehic... " />
+            <marker date="1493466369959" expanded="true" signature="3907:4007" ph="INSERT INTO vehicles... " />
+            <marker date="1493466369959" expanded="true" signature="4217:4262" ph="SELECT * FRO... vehicles" />
+            <marker date="1493466369959" expanded="true" signature="4594:4814" ph="INSERT INTO trajets... " />
+            <marker date="1493466369959" expanded="true" signature="4966:5116" ph="SELECT t.*,v... trajets" />
+            <marker date="1493466369959" expanded="true" signature="5384:5424" ph="DELETE FROM " />
+            <marker date="1493466369959" expanded="true" signature="5491:5530" ph="DELETE FROM " />
+            <marker date="1493466369959" expanded="true" signature="5674:5716" ph="SELECT * FRO... trajets" />
+            <marker date="1493466369959" expanded="true" signature="5878:6018" ph="SELECT t.*, trajets" />
+            <marker date="1493466369959" expanded="true" signature="6283:6422" ph="SELECT t.*, trajets" />
+            <marker date="1493466369959" expanded="true" signature="6579:6623" ph="SELECT * FRO... trajets" />
+            <marker date="1493466369959" expanded="true" signature="6775:6819" ph="SELECT * FRO... trajets" />
+            <marker date="1493466369959" expanded="true" signature="7035:7095" ph="UPDATE traje... " />
+            <marker date="1493466369959" expanded="true" signature="7298:7367" ph="SELECT * FRO... trajets" />
+            <marker date="1493466369959" expanded="true" signature="7298:7391" ph="SELECT * FRO... trajets" />
+            <marker date="1493466369959" expanded="true" signature="7298:7414" ph="SELECT * FRO... trajets" />
+            <marker date="1493466369959" expanded="true" signature="7298:7435" ph="SELECT * FRO... trajets" />
+            <marker date="1493466369959" expanded="true" signature="7298:7460" ph="SELECT * FRO... trajets" />
+            <marker date="1493466369959" expanded="true" signature="7298:7483" ph="SELECT * FRO... trajets" />
+            <marker date="1493466369959" expanded="true" signature="7298:7484" ph="SELECT * FRO... trajets" />
+            <marker date="1493466369959" expanded="true" signature="7298:7502" ph="SELECT * FRO... trajets" />
+            <marker date="1493466369959" expanded="true" signature="7298:7523" ph="SELECT * FRO... trajets" />
+            <marker date="1493466369959" expanded="true" signature="7695:7780" ph="INSERT INTO steps... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mes_annonces.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="80" column="34" selection-start-line="80" selection-start-column="34" selection-end-line="80" selection-end-column="34" />
           <folding />
         </state>
       </provider>

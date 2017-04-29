@@ -144,7 +144,6 @@ $(function () {
             reader.readAsDataURL(input.files[0]);
         }
     }
-
     $("#profilepic").change(function(){
         readURL(this);
     });
@@ -178,32 +177,6 @@ $(function () {
         });
     });
     $( "#date" ).datepicker();
-    $('#sub_trajet').click(function () {
-        $('#trajet').submit(function(e){
-            e.preventDefault();
-            var frm = $('#trajet');
-            var fdpost = new FormData(frm[0]);
-            $.ajax({
-                type : "POST",
-                url  : "SubmitTrajet",
-                data : fdpost,
-                contentType: false,
-                processData: false,
-                success :  function(data)
-                {
-                    if(data.status == 'success'){
-                        $('.alert').slideUp('slow');
-                        $('.alert').removeClass('alert-danger');
-                        $('.alert').addClass('alert-success');
-                        $('.alert-holder').html('<strong>Trajet Enregistré avec succés ...</strong>');
-                        $('.alert').slideDown('slow',function(){setTimeout(function(){
-                            document.location.href = 'MesAnnonces';
-                        }, 3000)});
-                    }
-                }
-            });
-        });
-    });
     $('.delete').click(function (e) {
         e.preventDefault();
         var element_id = $(this).attr("data-id");
@@ -231,7 +204,6 @@ $(function () {
             data: frm,
             url : "Rechercher-"+dep+"-"+arr
         });
-
     });
     $('#takeplace').click(function(){
         var d = {'id_trajet' : $(this).attr('data-id')}
